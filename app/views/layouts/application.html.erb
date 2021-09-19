@@ -11,6 +11,31 @@
   </head>
 
   <body>
-    <%= yield %>
+
+    <header>
+      <input type="text">
+      <button type="button">Search</button>
+    </header>
+
+    <main>
+      <nav>
+        <ul>
+          <li>All</li>
+          <li>Beef</li>
+          <li>Chicken</li>
+          <li>Vegetable</li>
+          <li>Seafood</li>
+          <li>Appetizer</li>
+          <li>Lunch Special</li>
+        </ul>
+      </nav>
+    
+      <%= yield %>
+    </main>
+
+    <footer>
+      <p>Flatiron Kitchen, All Rights Reserved</p>
+    </footer>
+
   </body>
 </html>
