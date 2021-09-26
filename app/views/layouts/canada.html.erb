@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flatiron Kitchen, now in Canada!</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'canada', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+    <header>
+      <div>
+        <input type="text">
+        <button type="button">Search</button>
+      </div>
+
+      <nav>
+        <ul>
+          <li>All</li>
+          <li>Beef</li>
+          <li>Chicken</li>
+          <li>Vegetable</li>
+          <li>Seafood</li>
+          <li>Appetizer</li>
+          <li>Lunch Special</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <%= yield %>
+    </main>
+
+    <footer>
+      <p>Flatiron Kitchen, All Rights Reserved</p>
+    </footer>
+
+  </body>
+</html>

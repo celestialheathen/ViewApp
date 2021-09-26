@@ -1,0 +1,20 @@
+header {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+main {
+  height: 80vh;
+  text-align: center;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+}
