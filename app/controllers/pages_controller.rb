@@ -1,6 +1,7 @@
 class PagesController < ApplicationController 
 
-  def latest 
+  def home 
+    @items = Item.all
   end 
   
 end 

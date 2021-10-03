@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  get 'home/latest', to: 'pages#latest'
+  get 'home', to: 'pages#home'
 
   get 'ca', to: 'locations#canada'
 
