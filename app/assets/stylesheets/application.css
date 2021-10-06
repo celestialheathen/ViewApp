@@ -22,3 +22,13 @@ nav ul li {
 footer {
   text-align: center;
 }
+
+.menu-item {
+  margin: 20px 20px;
+}
+
+.item-image {
+  display: block;
+  width: 230px;
+  height: 200px;
+}
