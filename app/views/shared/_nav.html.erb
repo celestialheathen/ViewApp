@@ -1,11 +1,9 @@
-<nav>
-  <ul>
-    <li><%= link_to "All", root_path %></li>
-    <li><%= link_to "Beef", "/beef" %></li>
-    <li><%= link_to "Chicken", "/chicken" %></li>
-    <li><%= link_to "Vegetable", "/vegetable" %></li>
-    <li><%= link_to "Seafood", "/seafood" %></li>
-    <li><%= link_to "Appetizer", "/appetizer" %></li>
-    <li><%= link_to "Lunch Special", "/special" %></li>
-  </ul>
-</nav>
+<ul class="nav flex-column">
+  <li class="nav-item"><%= link_to "All", root_path, class: "nav-link" %></li>
+  <li class="nav-item"><%= link_to "Beef", "/beef", class: "nav-link" %></li>
+  <li class="nav-item"><%= link_to "Chicken", "/chicken", class: "nav-link" %></li>
+  <li class="nav-item"><%= link_to "Vegetable", "/vegetable", class: "nav-link" %></li>
+  <li class="nav-item"><%= link_to "Seafood", "/seafood", class: "nav-link" %></li>
+  <li class="nav-item"><%= link_to "Appetizer", "/appetizer", class: "nav-link" %></li>
+  <li class="nav-item"><%= link_to "Lunch Special", "/special", class: "nav-link" %></li>
+</ul>
