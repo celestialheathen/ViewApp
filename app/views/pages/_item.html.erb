@@ -1,8 +1,13 @@
-<%= content_tag :div, class: "menu-item" do %>
-  <%= image_tag item.image_url, class: "item-image" %>
+<div class="col-3 mb-4">
+  <%= content_tag :div, class: "card" do %>
+    <%= image_tag item.image_url, class: "card-img-top item" %>
+    <div class="card-body">
+      <h5 class="card-title"><%= item.name %></h5>
+      <p class="card-text">$<%= item.price %></p>
+      <a href="#" class="btn btn-primary">Add to Cart</a>
+    </div>
+  <% end %>
+</div>
 
-  <%= item.name %>
-  <%= item.price %>
 
-  <%= button_tag "Add to Cart", type: "submit" %>
-<% end %>
+

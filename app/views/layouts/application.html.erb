@@ -20,7 +20,11 @@
     <main>
       <%= render 'shared/nav' %>
     
-      <%= yield %>
+      <div class="container">
+        <div class="row">
+          <%= yield %>
+        </div>
+      </div>
     </main>
 
     <%= render 'shared/footer' %>

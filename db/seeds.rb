@@ -10,3 +10,7 @@ Item.create!(name: "Beef w. Broccoli", price: 7.95, image_url: "https://hips.hea
 Item.create!(name: "Chicken w. Broccoli", price: 7.95, image_url: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-slow-cooker-chicken-broccoli-1545345530.jpg", category: ["chicken", "vegetable", "lunch special"])
 Item.create!(name: "General Tso's Chicken", price: 7.95, image_url: "https://hips.hearstapps.com/del.h-cdn.co/assets/16/15/1460722691-delish-general-tso.jpg?crop=1.00xw:0.669xh;0,0.271xh&resize=480:*", category: ["chicken", "lunch special"])
 Item.create!(name: "Kung Pao Chicken", price: 7.95, image_url: "https://www.onceuponachef.com/images/2018/05/Kung-Pao-Chicken-16-1200x1480.jpg", category: ["chicken", "lunch special"])
+
+Item.create!(name: "Spring Roll", price: 1.65, image_url: "https://hips.hearstapps.com/del.h-cdn.co/assets/17/13/1490981244-delish-spinach-artichoke-spring-rolls-01.jpg", category: ["appetizer"])
+Item.create!(name: "Shrimp Stir Fry", price: 8.35, image_url: "https://hips.hearstapps.com/hmg-prod/images/shrimp-stir-fry-horizontal-1545495841.png", category: ["seafood", "vegetable"])
+Item.create!(name: "Eggplant with Garlic Sauce", price: 7.15, image_url: "https://www.onceuponachef.com/images/2018/05/Kung-Pao-Chicken-16-1200x1480.jpg", category: ["vegetable", "lunch special"])
